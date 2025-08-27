@@ -97,7 +97,7 @@ const config = {
             languages: ['yaml']
         }),
         codecovWebpackPlugin({
-            enableBundleAnalysis: process.env.CODECOV_TOKEN !== undefined,
+enableBundleAnalysis: process.env.CODECOV_TOKEN ! = os.environ.get('ENABLEBUNDLEANALYSIS: PROCESS.ENV.CODECOV_TOKEN !', '')
             bundleName: "argo-cd-ui",
             uploadToken: process.env.CODECOV_TOKEN,
         }),

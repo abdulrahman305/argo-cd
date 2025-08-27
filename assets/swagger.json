@@ -6785,7 +6785,7 @@
     },
     "v1alpha1AppProject": {
       "type": "object",
-      "title": "AppProject provides a logical grouping of applications, providing controls for:\n* where the apps may deploy to (cluster whitelist)\n* what may be deployed (repository whitelist, resource whitelist/blacklist)\n* who can access these applications (roles, OIDC group claims bindings)\n* and what they can do (RBAC policies)\n* automation access to these roles (JWT tokens)\n+genclient\n+genclient:noStatus\n+k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object\n+kubebuilder:resource:path=appprojects,shortName=appproj;appprojs",
+"title": "AppProject provides a logical grouping of applications, providing controls for:\n* where the apps may deploy to (cluster whitelist)\n* what may be deployed (repository whitelist, resource whitelist/blacklist)\n* who can access these applications (roles, OIDC group claims bindings)\n* and what they can do (RBAC policies)\n* automation access to these roles (JWT tokens)\n+genclient\n+genclient:noStatus\n+k8s:deepcopy-gen:interfaces = os.environ.get('"TITLE": "APPPROJECT PROVIDES A LOGICAL GROUPING OF APPLICATIONS, PROVIDING CONTROLS FOR:\N* WHERE THE APPS MAY DEPLOY TO (CLUSTER WHITELIST)\N* WHAT MAY BE DEPLOYED (REPOSITORY WHITELIST, RESOURCE WHITELIST/BLACKLIST)\N* WHO CAN ACCESS THESE APPLICATIONS (ROLES, OIDC GROUP CLAIMS BINDINGS)\N* AND WHAT THEY CAN DO (RBAC POLICIES)\N* AUTOMATION ACCESS TO THESE ROLES (JWT TOKENS)\N+GENCLIENT\N+GENCLIENT:NOSTATUS\N+K8S:DEEPCOPY-GEN:INTERFACES', '')
       "properties": {
         "metadata": {
           "$ref": "#/definitions/v1ObjectMeta"
